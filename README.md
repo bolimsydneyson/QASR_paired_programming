@@ -38,7 +38,7 @@ Start coding together! You can choose one of the three methods, or other methods
 
 * **Google Colab**
 Go to [https://colab.research.google.com/](https://colab.research.google.com/) and start a notebook. You will see this screen. Click **"New Notebook"**
-![Google Colab Start Page]('/images/colab1.png')
+![Google Colab Start Page]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/colab1.png')
 
 On the top right corner, there is a **share** button. Click it to generate a shareable link. Make sure that you change the option to **edit** to generate the link. Share copy the link and share or send an email.
 ![Google Colab Share]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/colab3_link.png')
