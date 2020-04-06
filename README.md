@@ -41,21 +41,21 @@ Go to [https://colab.research.google.com/](https://colab.research.google.com/) a
 ![Google Colab Start Page]('/images/colab1.png')
 
 On the top right corner, there is a **share** button. Click it to generate a shareable link. Make sure that you change the option to **edit** to generate the link. Share copy the link and share or send an email.
-![Google Colab Share]('/images/colab3_link.png')
-![Google Colab Email Share]('/images/colab3_email.png')
+![Google Colab Share]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/colab3_link.png')
+![Google Colab Email Share]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/colab3_email.png')
 
 On the top left corner, you will be able to add code chunks or text chunks. This is basically Python Notebook format.
-![Google Colab Example]('/images/colab4.png')
+![Google Colab Example]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/colab4.png')
 
 
 * **Google Docs**
 Go to [https://docs.google.com/](https://docs.google.com/) and start a new document.
 
 On the top right corner, there is a **share** button. Click it to generate a shareable link. Make sure that you change the option to **edit** to generate the link. Share copy the link and share or send an email.
-![Google Docs Share]('/images/docs1.png')
+![Google Docs Share]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/docs1.png')
 
 You can write up your code like this.
-![Google Docs Example]('/images/docs2.png')
+![Google Docs Example]('https://raw.githubusercontent.com/bolimsydneyson/QASR_paired_programming/master/images/docs2.png')
 
 
 * **Screen share**
