@@ -20,9 +20,9 @@ Please remember to sign up.
 
 Join the zoom link and specify your programming language in your name. (i.e. R_JohnDoe, Python/R_JohnDoe). You can do this by i) Specifying the name upon entry, ii) right click your profile picture, and change the name. Please refer to the screenshots below.
 
-![Zoom Name 1](/images/zoom1)
+![Zoom Name 1](/images/zoom1.png)
 
-![Zoom name 2](/images/zoom2)
+![Zoom name 2](/images/zoom2.png)
 
 
 #### **2) Go to your breakout room**
