@@ -1,0 +1,113 @@
+---
+title: "R Fibonacci Solution"
+author: "Sydney Bolim Son"
+date: "4/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# What is the *n*th number in the Fibonacci sequence?
+
+The Fibonacci sequence is a sequence of numbers in which each number is the sum of the previous two numers. The sequence begins with 0 and 1. It is defined as $$F_n = F_{n-1} + F_{n-2}$$ where $F_0 = 0$ and $F_1 = 1$.
+
+For example, here is the sequence through the 12th number.For example, here is the sequence through the 12th number.
+
+| $F_0$ | $F_1$ | $F_2$ | $F_3$ | $F_4$ | $F_5$ | $F_6$ | $F_7$ | $F_8$ | $F_9$ | $F_{10}$ |$F_{11}$| $F_{12}$ |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :------------: | :------------: | :------------: |
+|       0       |       1       |       1       |       2       |       3       |       5       |       8       |      12       |      21       |      34       |       55       |       89       |      144       |
+
+Write a R program to print out the *n*th number in the sequence. 
+
+For example, `fib(10)` should give an output `55`.
+
+For a greater challenge, optimize the above solution to improve runtime complexity. 
+
+
+## __Method 1: `for` loop__
+
+```{r}
+start_time <- Sys.time()
+# for loop
+n <- 10
+
+len <- n
+fibvals <- numeric(len)
+fibvals[1] <- 1
+fibvals[2] <- 1
+for (i in 3:len) { 
+   fibvals[i] <- fibvals[i-1]+fibvals[i-2]
+} 
+end_time <- Sys.time()
+
+# To get the nth fibonacci number change the n above in the loop
+fibvals[n]
+
+# Peformance of the loop is
+end_time - start_time
+```
+
+
+## __Method 2: Recursion__
+
+```{r}
+fibonacci <- function(n){
+  if (n<0){
+    print("Please stick to positive numbers fo now")
+  } else if (n==0){
+    return(0)
+  } else if (n==1){
+    return(1)
+  } else{
+    return(fibonacci(n-1)+fibonacci(n-2))
+  }
+}
+```
+
+```{r}
+fibonacci(10)
+```
+
+```{r}
+start_time <- Sys.time()
+fibonacci(10)
+end_time <- Sys.time()
+
+end_time - start_time
+```
+
+
+
+## __Method 3: Recursion & List Indexing__
+
+```{r}
+memoize_me_capn <- list()
+
+fibonacci_2 <- function(n){
+  if (n<0){
+    print("Please stick to positive numbers fo now")
+  } else if (n==0){
+    value <- 0
+  } else if (n==1){
+    value <- 1
+  } else{
+    value <- fibonacci_2(n-1)+fibonacci_2(n-2)
+  }
+  memoize_me_capn[n+1] <- value
+  return(value)
+}
+```
+
+```{r}
+fibonacci_2(10)
+```
+
+```{r}
+start_time <- Sys.time()
+fibonacci_2(10)
+end_time <- Sys.time()
+
+end_time - start_time
+```
