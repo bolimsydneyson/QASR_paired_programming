@@ -14,13 +14,16 @@ For example, here is the sequence through the 12th number.
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :------------: | :------------: | :------------: |
 |       0       |       1       |       1       |       2       |       3       |       5       |       8       |      12       |      21       |      34       |       55       |       89       |      144       |
 
-Write a python program to print out the *n*th number in the sequence without using any `for` or `while` loops. 
+Write a python program to print out the *n*th number in the sequence. You can chose your level of difficulty:
+
+* No constraints.
+* Using recursion.   
+* Optimize the recursive answer to improve runtime complexity.
 
 For example, `fib(10)` should give an output `55`.
 
-For a greater challenge, optimize the above solution to improve runtime complexity. 
 
 
 
 
- 
+
