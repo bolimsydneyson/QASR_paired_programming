@@ -5,7 +5,7 @@ This workshop is intended to support students to improve their programming and p
 
 If you have any questions, please email to [qasr@columbia.edu](mailto:qasr@columbia.edu)
 
-To sign up, please register here. https://forms.gle/uvLfXHKEnTCqx3bz6
+To sign up for April 17th session, please register here. https://forms.gle/2gVavDLgWoERfCbQ9
 
 
 
